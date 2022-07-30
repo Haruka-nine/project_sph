@@ -8,7 +8,7 @@ module.exports = (req, res) => {
     // xxxxx 替换为你跨域请求的服务器 如： http://baidu.com
     if (req.url.startsWith('/api')) {
         // 这里填目标地址
-        target = 'https://gmall-h5-api.atguigu.cn'
+        target = 'http://gmall-h5-api.atguigu.cn'
     }
     // 创建代理对象并转发请求
     createProxyMiddleware({
