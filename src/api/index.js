@@ -19,7 +19,7 @@ export const requestBannerList = ()=>{
 
 //获取floor轮播图接口
 export const requestFloorList =()=>{
-    return mockRequests.get('floor')
+    return mockRequests.get('/floor')
 }
 //获取参数的请求
 export const requestGetSearchInfo = (params)=>requests({
